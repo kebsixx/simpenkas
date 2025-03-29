@@ -56,23 +56,6 @@ or if you're using yarn:
 yarn install
 ```
 
-## Configuration
-
-1. Create a `.env` file in the root directory based on the `.env.example` file:
-
-```bash
-cp .env.example .env
-```
-
-2. Update the `.env` file with your configuration values:
-
-```
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/simpenkas
-JWT_SECRET=your_jwt_secret
-NODE_ENV=development
-```
-
 ## Usage
 
 ### Development Mode
